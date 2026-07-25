@@ -9,10 +9,15 @@ This program was created using the `cryptography` python library with python 3.1
 conda env create -f setup/environment.yml
 ```
 
-### Option 2 (venv)
+#### Option 2 (venv)
 ```
 python -m venv env
 env\Scripts\activate
 pip install --upgrade pip
 pip install -r setup/requirements.txt
+```
+
+#### Option 3 (python)
+```
+pip install cryptography==49.0.0
 ```
