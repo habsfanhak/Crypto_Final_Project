@@ -7,7 +7,7 @@
 
 Run the following commands from the project root.
 
-### Option 1: Conda (recommended)
+#### Option 1: Conda (recommended)
 
 ```
 conda env create -f setup/environment.yml
