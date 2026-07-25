@@ -1,23 +1,37 @@
 ## Cryptography Final Project
 
-### Installation
+### Requirements
 
-This program was created using the `cryptography` python library with python 3.12.
+- Python 3.12
+- `cryptography` 49.0.0
 
-#### Option 1 (Conda)
+Run the following commands from the project root.
+
+### Option 1: Conda (recommended)
+
 ```
 conda env create -f setup/environment.yml
+conda activate crypto-final
 ```
 
 #### Option 2 (venv)
 ```
-python -m venv env
-env\Scripts\activate
-pip install --upgrade pip
-pip install -r setup/requirements.txt
+py -3.12 -m venv .venv
+.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r setup/requirements.txt
 ```
 
 #### Option 3 (python)
+
+If Python 3.12 is already installed and an isolated environment is not required:
+
 ```
-pip install cryptography==49.0.0
+python -m pip install cryptography==49.0.0
 ```
+
+### Running the project
+
+Open the demonstration notebook:
+
+`jupyter notebook project.ipynb`
