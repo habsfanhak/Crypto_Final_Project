@@ -1,5 +1,7 @@
 ## Cryptography Final Project
 
+This project implements a simple session between Alice and Bob, and tests the implementation with the project notebook serving as the space where an attacker may hypothetically intercepts and carry out a variety of attacks.
+
 ### Requirements
 
 - Python 3.12
@@ -35,3 +37,4 @@ python -m pip install cryptography==49.0.0
 Open the demonstration notebook:
 
 `jupyter notebook project.ipynb`
+
