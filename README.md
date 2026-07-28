@@ -1,6 +1,6 @@
 ## Cryptography Final Project
 
-This project implements a simple session between Alice and Bob, and tests the implementation with the project notebook serving as the space where an attacker may hypothetically intercepts and carry out a variety of attacks.
+This project implements a simple session between Alice and Bob, and tests the implementation with the project notebook serving as the space where an attacker may hypothetically intercept and carry out a variety of attacks.
 
 
 ### Project Structure
